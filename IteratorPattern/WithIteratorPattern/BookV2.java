@@ -18,6 +18,6 @@ public class BookV2 implements Comparable<Book> {
 
     @Override
     public int compareTo(Book o) {
-        return this.title.compareTo(author)
+        return this.title.compareTo(author);
     }
 }
